@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+	<item>
+		<name>ftc_primary_color</name>
+		<value>#ddbc5f</value>
+	</item>
+	<item>
+		<name>ftc_secondary_color</name>
+		<value>#444444</value>
+	</item>
+        <item>
+		<name>ftc_body_background_color</name>
+		<value>#ffffff</value>
+	</item>
+</items>

@@ -1,0 +1,62 @@
+/*
+Theme Name: GiftsShop Child
+Theme URI: https://demo.themeftc/woo_perfect_gifts/store
+Template: giftsshop
+Author: the ThemeFTC team
+Author URI: https://demo.themeftc.com
+Description: GiftsShop brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Tags: one-column,two-columns,right-sidebar,flexible-header,accessibility-ready,custom-colors,custom-header,custom-menu,editor-style,featured-images,footer-widgets,post-formats,rtl-language-support,sticky-post,theme-options,threaded-comments,translation-ready
+Version: 1.1.1520561100
+Updated: 2018-03-09 09:05:00
+
+*/
+
+body{
+  background-color: #daeedc !important;
+}
+
+.ftc-logo{
+
+}
+
+.ftc-logo .logo{
+  width: 150px;
+  margin: auto;
+}
+
+.ftc-logo .logo img{
+  width: 100%;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li{
+  background-color: #daeedc;
+}
+
+.for_child .banner a, .for_women .banner a{
+  background-color: #f7a79c;
+}
+
+.tp-bullets.simplebullets .bullet:hover:after, .tp-bullets.simplebullets .bullet.selected:after, body .rev_slider .tp-bullets .tp-bullet:hover:after, body .rev_slider .tp-bullets .tp-bullet.selected:after{
+  background-color: #1caba8;
+}
+
+.product_deals_slider .woocommerce .ftc-slider .products .product, .product_deals_slider .woocommerce-page .ftc-slider .products .product{
+  border: 10px solid #f7a79c;
+}
+
+.dropdown-container .cart-list-footer > a.button.checkout:hover, .woocommerce .widget_price_filter .price_slider_amount .button:hover, .woocommerce-page .widget_price_filter .price_slider_amount .button:hover, body input.wpcf7-submit:hover, .woocommerce .products.list .product .item-description .meta_info a:not(.quickview):hover, .woocommerce .products.list .product .item-description .quickview :hover, .counter-wrapper > div, .tp-bullets .tp-bullet:after, .woocommerce .product .conditions-box .onsale, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce .products .product .item-image .button-in:hover a:hover, .vc_color-orange.vc_message_box-solid, .woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce-page nav.woocommerce-pagination ul li span.current, .woocommerce nav.woocommerce-pagination ul li a.next:hover, .woocommerce-page nav.woocommerce-pagination ul li a.next:hover, .woocommerce nav.woocommerce-pagination ul li a.prev:hover, .woocommerce-page nav.woocommerce-pagination ul li a.prev:hover, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce-page nav.woocommerce-pagination ul li a:hover, .woocommerce .form-row input.button:hover, .load-more-wrapper .button:hover, body .vc_general.vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tab:hover, body .vc_general.vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tab.vc_active, .woocommerce div.product form.cart .button:hover, .woocommerce div.product div.summary p.cart a:hover, div.product .summary .yith-wcwl-add-to-wishlist a:hover, .woocommerce #content div.product .summary .compare:hover, div.product .social-sharing li a:hover, .woocommerce div.product .woocommerce-tabs ul.tabs li.active, .tagcloud a:hover, .woocommerce .wc-proceed-to-checkout a.button.alt:hover, .woocommerce .wc-proceed-to-checkout a.button:hover, .woocommerce-cart table.cart input.button:hover, .owl-dots > .owl-dot span:hover, .owl-dots > .owl-dot.active span, footer .style-3 .feedburner-subscription .button.button-secondary.transparent, .woocommerce .widget_price_filter .ui-slider .ui-slider-range, body .vc_tta.vc_tta-accordion .vc_tta-panel.vc_active .vc_tta-panel-title > a, body .vc_tta.vc_tta-accordion .vc_tta-panel .vc_tta-panel-title > a:hover, body div.pp_details a.pp_close:hover:before, .vc_toggle_title h4:after, body.error404 .page-header a, body .button.button-secondary, .pp_woocommerce div.product form.cart .button, .shortcode-icon .vc_icon_element.vc_icon_element-outer .vc_icon_element-inner.vc_icon_element-background-color-orange.vc_icon_element-background, .style1 .ftc-countdown .counter-wrapper > div, .style2 .ftc-countdown .counter-wrapper > div, .style3 .ftc-countdown .counter-wrapper > div, #cboxClose:hover, body > h1, table.compare-list .add-to-cart td a:hover, .vc_progress_bar.wpb_content_element > .vc_general.vc_single_bar > .vc_bar, div.product.vertical-thumbnail .details-img .owl-controls div.owl-prev:hover, div.product.vertical-thumbnail .details-img .owl-controls div.owl-next:hover, ul > .page-numbers.current, ul > .page-numbers:hover, #mega_main_menu.primary > .menu_holder > .menu_inner > ul > li.current-menu-item > .item_link, #mega_main_menu > .menu_holder > .menu_inner > ul > li:hover, .footer-top .vc_row-fluid, .time, .blog article .post-img .entry-date, .single-post article .post-img .entry-date, .blogs article .post-info .entry-date, .header-v2 .number_cart, .item-image .group-button-product > div a i:hover, .item-image .group-button-product > a span, .item-image .group-button-product > div a span, #mega_main_menu.primary > .menu_holder > .menu_inner > ul > li.current-menu-ancestor, .woocommerce div.product div.summary p.cart a, .woocommerce div.product form.cart .button, .single.single-product.woocommerce div.product .quickview .fa:hover, .details_thumbnails .owl-nav .owl-prev:hover, .details_thumbnails .owl-nav .owl-next:hover, .blogs article .post-info .entry-date, .related-posts .entry-date, div.product .summary form .button-in.wishlist a i:hover, div.product .summary .group_button_out_of_stock .button-in.wishlist a i:hover, .item-image .group-button-product > a:hover, .pp_woocommerce div.product .summary .compare:hover, .woocommerce div.product .summary .compare:hover, .woocommerce-page div.product .summary .compare:hover, .woocommerce #content div.product .summary .compare:hover, .woocommerce-page #content div.product .summary .compare:hover, div.product .summary .yith-wcwl-add-to-wishlist a:hover, .woocommerce .products.list .product .item-description a.add-to-cart, .woocommerce .products.list .product .item-description .meta_info a:not(.quickview):hover, .woocommerce .products.list .product .item-description .quickview i:hover, div.product .summary form .yith-wcwl-add-to-wishlist a i:hover, div.product .summary .group_button_out_of_stock .yith-wcwl-add-to-wishlist a i:hover, body > h1:first-child, table.compare-list .add-to-cart td.odd a.add-to-cart:hover, .vc_toggle_title h4:before, .vc_toggle_active .vc_toggle_title h4:before, .text_service a, .tag article .post-img .entry-date, .author article .post-img .entry-date, .page-numbers.current, .pp_inline div.product.product-type-external p.cart, .single.single-product.woocommerce div.product .summary .quickview:hover .fa, table.compare-list .add-to-cart td a:hover, .widget table#wp-calendar tbody tr td a, .woocommerce .products.list .product .item-description .add-to-cart a, .form-row.place-order button.button.alt:hover, .woocommerce .wishlist_table td.product-add-to-cart a:hover, .comments-area .comment-respond .form-submit input[type="submit"]:hover{
+  background-color: #f7a79c;
+}
+
+widget ul > li a {
+  text-align: left;
+  color: #f7a79c;
+}
+
+.wpb-js-composer .vc_tta-container .vc_tta.vc_general .vc_tta-tabs-list {
+  background-color: #9ee4de;
+}
+
+.home .header-v1 .navigation-primary {
+  top: 630px;
+}
