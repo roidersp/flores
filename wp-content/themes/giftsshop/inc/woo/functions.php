@@ -34,7 +34,9 @@ if( !function_exists('ftc_tiny_account') ){
 					/ 
 					<a class="ftc_sign_up" href="<?php echo esc_url($register_url); ?>" title="<?php esc_html_e('Create New Account','giftsshop'); ?>"><span><?php esc_html_e('Sign up','giftsshop');?></span></a>
 				<?php else: ?>
-					
+                    <a class="my-account" href="<?php echo esc_url($profile_url); ?>" title="<?php esc_html_e('My Account', 'giftsshop'); ?>"><span><?php esc_html_e('My Account', 'giftsshop'); ?></span></a> /
+                    <a class="log-out" href="<?php echo esc_url($logout_url); ?>" title="<?php esc_html_e('Logout', 'giftsshop'); ?>"><span><?php esc_html_e('Logout', 'giftsshop'); ?></span></a>
+                	
 				<?php endif; ?>
 			</div>
 			<?php if( !$_user_logged ): ?>

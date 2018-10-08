@@ -5,6 +5,9 @@ jQuery(document).ready(function($) {
     $(".dropdown-button span").click(function() {
         $(this).parent().find(".dropdown-list").slideToggle("fast");
     });
+    $(".ftc-droplist").click(function () {
+        $("#dropdown-list").slideToggle("fast");
+    });
     $("button.search-button").click(function() {
         $('.ftc_search_ajax').slideToggle('fast');
     });
@@ -1219,6 +1222,115 @@ $('.prod-cat-show-top-content-button a').bind('click', function(){
         }, 500);
     });
 
+    /* FTC Owl slider */
+    $('.ftc-sb-brandslider').each(function () { 
+        var margin = $(this).data('margin');
+        var columns = $(this).data('columns');
+        var nav = $(this).data('nav') == 1;  
+        var dots = $(this).data('dots') == 1; 
+        var auto_play = $(this).data('auto_play') == 1;             
+        var slider = $(this).data('slider') == 1;
+        var desksmall_items = $(this).data('desksmall_items');
+        var tabletmini_items = $(this).data('tabletmini_items');
+        var tablet_items = $(this).data('tablet_items');
+        var mobile_items = $(this).data('mobile_items');
+        var mobilesmall_items = $(this).data('mobilesmall_items');        
+        
+            if( slider ){ 
+            var _slider_data ={
+                loop: true
+                , nav: nav
+                , dots: dots
+                , navSpeed: 1000
+                ,navText: [,]
+                , rtl: $('body').hasClass('rtl')
+                , margin: margin
+                , autoplay: auto_play
+                , autoplayTimeout: 5000
+                , autoplaySpeed: 1000
+                , responsiveBaseElement: $('body')
+                , responsiveRefreshRate: 400
+                , responsive: {
+                    0:{
+                  items: 1
+                },
+                480:{
+                  items: 2
+                },
+                640:{
+                  items: 3
+                },
+                768:{
+                  items: 3
+                },
+                991:{
+                  items: 4
+                },
+                1199:{
+                  items: 5
+                }
+                }
+                ,onInitialized: function(){
+                    $(this).addClass('loaded').removeClass('loading');
+                }
+            };
+    $(this).find('.meta-slider > div').owlCarousel(_slider_data);
+        }
+
+    });
+    
+/*Testimonial*/         
+        $('.ftc-testimonial-wrapper.ftc-slider').each(function () {
+            var slider = true;
+    if ($(this).find('.item').length <= 1) {
+        slider = false;
+    }
+    var columns = 1;
+    if (slider) {
+     var nav = $(this).data('nav') == 1;
+     var dots = $(this).data('dots') == 1;
+     columns = $(this).data('columns');
+     var autoplay = $(this).data('autoplay') == 1;                
+     $(this).addClass('loaded').removeClass('loading');
+     $(this).owlCarousel({
+        items: 1
+        , loop: true
+        , nav: nav
+        , dots: dots
+        , animateIn: 'fadeIn'
+        , animateOut: 'fadeOut'
+        , navText: [, ]
+        , navSpeed: 1000
+        , rtl: $('body').hasClass('rtl')
+        , margin: 0
+        , autoplay: autoplay
+        , autoplayTimeout: 5000
+        , center: true
+        , responsive: {
+            0: {
+                items: 1
+            },
+            992: {
+                items: 3
+            }
+        }
+    });
+ }
+});
+
+
+    $(window).bind('load resize', function () {
+        $('.google-map-container').each(function () {
+            var element = $(this);
+            var map_content = $(this).find('> div');
+            var address = element.data('address');
+            var zoom = element.data('zoom');
+            var map_type = element.data('map_type');
+            var title = element.data('title');
+            ftc_googlemap_start_up(map_content, address, zoom, map_type, title);
+        });
+    });
+    
     /** Compare **/
     setTimeout(function() {
         ftc_compare_change_scroll_bar();

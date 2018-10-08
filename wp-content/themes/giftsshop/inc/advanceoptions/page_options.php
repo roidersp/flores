@@ -103,6 +103,9 @@ $options[] = array(
 									'default'  	=> esc_html__('Default', 'giftsshop')
 									,'layout1'  		=> esc_html__('Header Layout 1', 'giftsshop')
 									,'layout2' 		=> esc_html__('Header Layout 2', 'giftsshop')
+                                                                        ,'layout5' 		=> esc_html__('Header Layout 5', 'giftsshop')
+                                                                        ,'layout6' 		=> esc_html__('Header Layout 6', 'giftsshop')
+                                                                        ,'layout7' 		=> esc_html__('Header Layout 7', 'giftsshop')
 								)
 			);
 			

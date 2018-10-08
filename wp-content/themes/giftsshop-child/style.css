@@ -11,12 +11,41 @@ Updated: 2018-03-09 09:05:00
 
 */
 
-body{
-  background-color: #daeedc !important;
-}
 
 .ftc-logo{
 
+}
+
+.wpb-js-composer .vc_tta.vc_general .vc_tta-panel.vc_active .vc_tta-panel-body{
+  padding: 0;
+  border:0;
+}
+
+.wpb-js-composer .vc_tta-container .vc_tta.vc_general .vc_tta-tabs-list{
+  background-color: #fee5e0 !important;
+}
+
+body.wpb-js-composer .vc_general.vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tab{
+  border: 1px solid #fee5e0;
+}
+
+.dropdown-container .cart-list-footer > a.button.checkout:hover, .woocommerce .widget_price_filter .price_slider_amount .button:hover, .woocommerce-page .widget_price_filter .price_slider_amount .button:hover, body input.wpcf7-submit:hover, .woocommerce .products.list .product .item-description .meta_info a:not(.quickview):hover, .woocommerce .products.list .product .item-description .quickview :hover, .counter-wrapper > div, .tp-bullets .tp-bullet::after, .woocommerce .product .conditions-box .onsale, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce .products .product .item-image .button-in:hover a:hover, .vc_color-orange.vc_message_box-solid, .woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce-page nav.woocommerce-pagination ul li span.current, .woocommerce nav.woocommerce-pagination ul li a.next:hover, .woocommerce-page nav.woocommerce-pagination ul li a.next:hover, .woocommerce nav.woocommerce-pagination ul li a.prev:hover, .woocommerce-page nav.woocommerce-pagination ul li a.prev:hover, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce-page nav.woocommerce-pagination ul li a:hover, .woocommerce .form-row input.button:hover, .load-more-wrapper .button:hover, body .vc_general.vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tab:hover, body .vc_general.vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tab.vc_active, .woocommerce div.product form.cart .button:hover, .woocommerce div.product div.summary p.cart a:hover, div.product .summary .yith-wcwl-add-to-wishlist a:hover, .woocommerce #content div.product .summary .compare:hover, div.product .social-sharing li a:hover, .woocommerce div.product .woocommerce-tabs ul.tabs li.active, .tagcloud a:hover, .woocommerce .wc-proceed-to-checkout a.button.alt:hover, .woocommerce .wc-proceed-to-checkout a.button:hover, .woocommerce-cart table.cart input.button:hover, .owl-dots > .owl-dot span:hover, .owl-dots > .owl-dot.active span, footer .style-3 .feedburner-subscription .button.button-secondary.transparent, .woocommerce .widget_price_filter .ui-slider .ui-slider-range, body .vc_tta.vc_tta-accordion .vc_tta-panel.vc_active .vc_tta-panel-title > a, body .vc_tta.vc_tta-accordion .vc_tta-panel .vc_tta-panel-title > a:hover, body div.pp_details a.pp_close:hover::before, .vc_toggle_title h4::after, body.error404 .page-header a, body .button.button-secondary, .pp_woocommerce div.product form.cart .button, .shortcode-icon .vc_icon_element.vc_icon_element-outer .vc_icon_element-inner.vc_icon_element-background-color-orange.vc_icon_element-background, .style1 .ftc-countdown .counter-wrapper > div, .style2 .ftc-countdown .counter-wrapper > div, .style3 .ftc-countdown .counter-wrapper > div, #cboxClose:hover, body > h1, table.compare-list .add-to-cart td a:hover, .vc_progress_bar.wpb_content_element > .vc_general.vc_single_bar > .vc_bar, div.product.vertical-thumbnail .details-img .owl-controls div.owl-prev:hover, div.product.vertical-thumbnail .details-img .owl-controls div.owl-next:hover, ul > .page-numbers.current, ul > .page-numbers:hover, #mega_main_menu.primary > .menu_holder > .menu_inner > ul > li.current-menu-item > .item_link, #mega_main_menu > .menu_holder > .menu_inner > ul > li:hover, .footer-top .vc_row-fluid, .time, .blog article .post-img .entry-date, .single-post article .post-img .entry-date, .blogs article .post-info .entry-date, .header-v2 .number_cart, .item-image .group-button-product > div a i:hover, .item-image .group-button-product > a span, .item-image .group-button-product > div a span, #mega_main_menu.primary > .menu_holder > .menu_inner > ul > li.current-menu-ancestor, .woocommerce div.product div.summary p.cart a, .woocommerce div.product form.cart .button, .single.single-product.woocommerce div.product .quickview .fa:hover, .details_thumbnails .owl-nav .owl-prev:hover, .details_thumbnails .owl-nav .owl-next:hover, .blogs article .post-info .entry-date, .related-posts .entry-date, div.product .summary form .button-in.wishlist a i:hover, div.product .summary .group_button_out_of_stock .button-in.wishlist a i:hover, .item-image .group-button-product > a:hover, .pp_woocommerce div.product .summary .compare:hover, .woocommerce div.product .summary .compare:hover, .woocommerce-page div.product .summary .compare:hover, .woocommerce #content div.product .summary .compare:hover, .woocommerce-page #content div.product .summary .compare:hover, div.product .summary .yith-wcwl-add-to-wishlist a:hover, .woocommerce .products.list .product .item-description a.add-to-cart, .woocommerce .products.list .product .item-description .meta_info a:not(.quickview):hover, .woocommerce .products.list .product .item-description .quickview i:hover, div.product .summary form .yith-wcwl-add-to-wishlist a i:hover, div.product .summary .group_button_out_of_stock .yith-wcwl-add-to-wishlist a i:hover, body > h1:first-child, table.compare-list .add-to-cart td.odd a.add-to-cart:hover, .vc_toggle_title h4::before, .vc_toggle_active .vc_toggle_title h4::before, .text_service a, .tag article .post-img .entry-date, .author article .post-img .entry-date, .page-numbers.current, .pp_inline div.product.product-type-external p.cart, .single.single-product.woocommerce div.product .summary .quickview:hover .fa, table.compare-list .add-to-cart td a:hover, .widget table#wp-calendar tbody tr td a, .woocommerce .products.list .product .item-description .add-to-cart a, .form-row.place-order button.button.alt:hover, .woocommerce .wishlist_table td.product-add-to-cart a:hover, .cookies-buttons a.btn.btn-size-small.btn-color-primary.cookies-accept-btn, p.woocommerce-mini-cart__buttons.buttons > a.button.checkout.wc-forward:hover, .cookies-buttons a.cookies-more-btn, input[type="submit"].dokan-btn-theme, a.dokan-btn-theme, .dokan-btn-theme, a.dokan-btn-theme:active, .dokan-btn-theme:active, input[type="submit"].dokan-btn-theme, .dokan-btn-theme, #to-top a:hover, .woocommerce td.actions .coupon button.button:hover, .woocommerce td.actions button.button:disabled:hover, .dokan-single-store .dokan-store-tabs ul li a:hover, .mfp-close-btn-in .mfp-close:hover, .single-portfolio .related .owl-nav > div:hover, .ftc-portfolio-wrapper .portfolio-inner .item .thumbnail .figcaption .zoom-img:hover, .ftc-portfolio-wrapper .item .figcaption ul:hover::before, .ftc-portfolio-wrapper .filter-bar li.current, .ftc-portfolio-wrapper .filter-bar li:hover, .comments-area .comment-respond .form-submit input[type="submit"]:hover{
+  background-color: #f7a79c !important;
+}
+
+.header-currency:hover .ftc-currency > a, .header-currency:hover::after, .ftc-sb-language:hover li .lang_selected, .ftc-sb-language:hover .ftc_language::after, .woocommerce a.remove:hover, .dropdown-container .cart-list-footer > a.button.view-cart:hover, .ftc-my-wishlist a:hover, .ftc-sb-account .ftc_login > a:hover, .header-currency .ftc-currency ul li:hover, .dropdown-button span:hover, body.wpb-js-composer .vc_general.vc_tta-tabs .vc_tta-tab.vc_active > a, body.wpb-js-composer .vc_general.vc_tta-tabs .vc_tta-tab > a:hover, #mega_main_menu.primary > .menu_holder.sticky_container > .menu_inner > ul > li > .item_link:hover *, #mega_main_menu.primary > .menu_holder.sticky_container > .menu_inner > ul > li.current-menu-item > .item_link *, #mega_main_menu.primary > .menu_holder > .menu_inner > ul > li.current-menu-ancestor > .item_link, #mega_main_menu.primary > .menu_holder > .menu_inner > ul > li.current-menu-ancestor > .item_link *, #mega_main_menu.primary > .menu_holder > .menu_inner > ul > li:hover > .item_link *, #mega_main_menu.primary .mega_dropdown > li > .item_link:hover *, #mega_main_menu.primary .mega_dropdown > li.current-menu-item > .item_link *, #mega_main_menu.primary > .menu_holder > .menu_inner > ul > li.current-menu-item > .item_link *, .woocommerce .products .product .price, .woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce .products .star-rating, .woocommerce-page .products .star-rating, .woocommerce .star-rating span::before, div.product div[itemprop="offers"] .price .amount, div.product .single_variation_wrap .amount, .pp_woocommerce .star-rating span::before, .woocommerce .star-rating span::before, .woocommerce-page .star-rating span::before, .woocommerce-product-rating .star-rating span, ins .amount, .ftc-wg-meta .price ins, .ftc-wg-meta .star-rating, .ul-style.circle li::before, .woocommerce form .form-row .required, .blogs .comment-count i, .blog .comment-count i, .single-post .comment-count i, .single-post article .post-info .info-post, .single-post article .post-info .info-post .cat-links a, .single-post article .post-info .info-post .vcard.author a, .ftc-breadcrumb-title .breadcrumbs-container, .ftc-breadcrumb-title .breadcrumbs-container span.current, .ftc-breadcrumb-title .breadcrumbs-container a:hover, .woocommerce .product .item-description .meta_info a:hover, .woocommerce-page .product .item-description .meta_info a:hover, .ftc-wg-meta.item-description .meta_info a:hover, .ftc-wg-meta.item-description .meta_info .button-in.wishlist a:hover, .ftc-gridlist-toggle-icon a.active, .ftc-quickshop-wrapper .owl-nav > div.owl-next:hover, .ftc-quickshop-wrapper .owl-nav > div.owl-prev:hover, .shortcode-icon .vc_icon_element.vc_icon_element-outer .vc_icon_element-inner.vc_icon_element-color-orange .vc_icon_element-icon, .comment-reply-link .icon, body table.compare-list tr.remove td > a .remove:hover::before, a:hover, a:focus, .vc_toggle_title h4:hover, .vc_toggle_title h4::before, .blogs article h3.title_sub a:hover, .footer-top .icon li a i:hover, body.wpb-js-composer .vc_general.vc_tta-tabs.default .vc_tta-tabs-container .vc_tta-tab.vc_active::before, #mega_main_menu.primary ul .mega_dropdown > li > .item_link:focus, .item-image .group-button-product > a span::before, .item-image .group-button-product > div a span::before, .woocommerce-account .woocommerce-MyAccount-navigation li.is-active a, .sale_price, .woocommerce-page .products.list .product h3.product-name a:hover, .post_list_widget .post-title h4:hover, .widget .post_list_widget .post-meta .entry-date i.fa, .widget .post_list_widget .post-meta .comment i.fa, .vcard.author a, .entry-info .caftc-link .cat-links a, .header-v2 .ftc_lang:hover, .tag-links a, .woocommerce-info::before, article a.button-readmore, .contact_info_map .info_contact .info_column ul::before, .ftc-blogs-widget-wrapper .post-meta .author:hover, .footer-mobile i, .footer-mobile .mobile-wishlist a.tini-wishlist:hover, p.woocommerce-mini-cart__buttons.buttons > a.button.wc-forward:hover, .off-can-vas-inner span.woocommerce-Price-amount.amount, #dokan-seller-listing-wrap ul.dokan-seller-wrap li .store-content .store-info .store-data h2 a:hover, .header-ftc a.tini-wishlist:hover i, .header-ftc a.tini-wishlist:hover span, .ftc-enable-ajax-search .meta .price, .woocommerce .product .images .ftc-product-video-button span:hover, .contact_info_map .info_contact .info_column.email ul li:hover, .widget_categories ul li:hover, .widget_categories ul li:hover a, .widget.widget-product-categories ul.product-categories li a:hover, .ftc-blogs-widget-wrapper .post-meta .author:hover a{
+  color: #000 !important;
+}
+
+.contenido{
+  max-width: 700px;
+  margin: auto;
+  width: 100%;
+}
+
+.contact_form{
+  margin-top: 0 !important;
+  padding-top: 0!important;
 }
 
 .header-nav, .site-header{
@@ -33,12 +62,20 @@ body{
 
 .header-sticky{
   width: 100%;
-  
-  padding: 30px;
+  padding: 10px 0;
+  height: 65px;
 }
 
-.is-sticky .header-sticky{
+header{
+  z-index: 100;
+  position: relative;
+  
+}
+
+.is-sticky .header-sticky, .is-sticky .header-sticky{
   background: #fff;
+  z-index: 100;
+  display: -webkit-box;
 }
 
 .is-sticky a, .is-sticky p, .is-sticky button, .is-sticky *:before, .is-sticky a>div, .is-sticky span{
@@ -46,8 +83,9 @@ body{
 }
 
 .ftc-logo .logo{
-  width: 150px;
+  width: 130px;
   margin: auto;
+  text-align: center;
 }
 
 .ftc-logo .logo img{
@@ -84,7 +122,15 @@ widget ul > li a {
 }
 
 .home .header-v1 .navigation-primary {
-  top: 630px;
+  top: 540px;
+}
+
+.header-stick .navigation-primary{
+  left: 0px;
+  top: 66px;
+  position: absolute;
+  right: 0;
+  
 }
 
 body .wpb_row{
@@ -103,6 +149,10 @@ body .wpb_row, body .wpb_content_element, body .vc_tta-container{
   margin-bottom: 0px !important;
 }
 
+#ImagesFTC{
+  padding-top: 95px!important;
+}
+
 #ImagesFTC .wpb_row{
   margin-bottom: 30px;
 }
@@ -112,12 +162,24 @@ body .wpb_row, body .wpb_content_element, body .vc_tta-container{
 }
 
 .logo{
-  width: 180px;
-  margin-bottom: -80px;
+  width: 140px;
+  margin-bottom: -50px;
+}
+
+.logo img{
+  transform: translateY(20px)
 }
 
 .logo-wrapper.is-desktop .logo{
-  margin-bottom: -120px;
+  margin-bottom: -70px !important;
+}
+
+.nav-center{
+  text-align: center;
+}
+
+.nav-center .logo-wrapper .logo{
+  margin: auto;
 }
 
 .container{

@@ -36,9 +36,9 @@ add_action('woocommerce_after_shop_loop_item', 'ftc_template_loop_product_sku', 
 add_action('woocommerce_after_shop_loop_item', 'ftc_template_loop_short_description', 60); 
 add_action('woocommerce_after_shop_loop_item', 'ftc_template_loop_short_description_listview', 70);
 if( $smof_data['ftc_prod_cat_price'] ){ 
-add_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_price', 40);
+add_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_price', 50);
 }
-add_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_rating', 50);
+add_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_rating', 60);
 if( $smof_data['ftc_prod_cat_add_to_cart'] ){
 add_action('woocommerce_after_shop_loop_item', 'ftc_template_loop_add_to_cart', 80); 
 }

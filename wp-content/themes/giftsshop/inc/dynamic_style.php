@@ -68,7 +68,8 @@ else{
 html, 
 body,
 .widget-title.title_sub,.subscribe-email .button.button-secondary,
-#mega_main_menu.primary ul li .mega_dropdown > li.sub-style > .item_link .link_text
+#mega_main_menu.primary ul li .mega_dropdown > li.sub-style > .item_link .link_text,
+body .hot-new .widget.ftc-items-widget h2.widgettitle
 {
   font-family: <?php echo esc_html($ftc_body_font) ?>;
 }
@@ -248,6 +249,38 @@ p.woocommerce-mini-cart__buttons.buttons > a.button.wc-forward:hover,
 .widget_categories ul li:hover,
 .widget_categories ul li:hover a,
 .widget.widget-product-categories ul.product-categories li a:hover,
+p.note,
+.text-deal p,
+.countdown-product .ftc-countdown .counter-wrapper > div .number-wrapper .number,
+.countdown-product .owl-nav > div.owl-prev:hover:before,
+.countdown-product .owl-nav > div.owl-next:hover:before,
+.blog-home.home5 .owl-nav > div.owl-prev:hover:before,
+.blog-home.home5 .owl-nav > div.owl-next:hover:before,
+.slider-home5 .wpb_wrapper .tp-leftarrow.tparrows:hover:before,
+.slider-home5 .wpb_wrapper .tp-rightarrow.tparrows:hover:before,
+.testimonial-home5 .ftc-testimonial-wrapper .testimonial-content .name a:hover,
+footer .widget .logo-footer ul>li a:hover,
+.site-footer .strong-info,
+.info_footer p a:hover,
+.testimonial-home5 .owl-nav > div.owl-next:hover:before,
+.testimonial-home5 .owl-nav > div.owl-prev:hover:before,
+.ftc-sb-brandslider .owl-nav > div.owl-prev:hover:before,
+.ftc-sb-brandslider .owl-nav > div.owl-next:hover:before,
+.text_description p.note,
+.testimonial-home5.home6 .ftc-testimonial-wrapper .active.center .testimonial-content .name a,
+.ftc-feature_1 .ftc-feature-wrp > a:hover i,
+.product-special.home7 .owl-nav > div:hover:before,
+.img-home8 .text-home4 a.ftc-button:hover,
+.img-home8 .text-home5 a.ftc-button:hover,
+.choose-us p.pick-us,
+.choose-us ul li:before,
+.text-deal-product p,
+.product-special .woocommerce .product .conditions-box span.onsale:before,
+.deal-product-1 .woocommerce .product .conditions-box span.onsale:before,
+.deal-product-1 .owl-nav > div:hover,
+.product-special.home6 .owl-nav > div:hover:before,
+.countdown-product .woocommerce div.product h3 a:hover,
+.hot-new .woocommerce ul.product_list_widget li a:hover,
 .ftc-blogs-widget-wrapper .post-meta .author:hover a
 {
 color: <?php echo esc_html($ftc_primary_color) ?>;
@@ -363,11 +396,25 @@ input[type="submit"].dokan-btn-theme,
 .ftc-portfolio-wrapper .item .figcaption ul:hover:before,
 .ftc-portfolio-wrapper .filter-bar  li.current,
 .ftc-portfolio-wrapper .filter-bar li:hover,
+.text_description .ftc-button-wrapper a.ftc-button-1,
+.brand-description .ftc-button:hover,
+.countdown-product .wpb_column.vc_column_container.vc_col-sm-2,
+.testimonial-home5 .ftc-testimonial-wrapper .active .testimonial-content .content:before,
+.ftc-button-wrapper a.ftc-button-1:hover,
+.header-layout7 .navigation-primary,
+.header-layout7 #mega_main_menu.direction-horizontal > .menu_holder.sticky_container > .mmm_fullwidth_container,
+.collection-home3 .ftc-button-wrapper a.ftc-button-1,
+.text_description .ftc-button,
+.wpcf7 .wpcf7-form input[type="submit"]:hover,
+.woocommerce div.address a.button:hover,
+.woocommerce-page div.address a.button:hover,
 .comments-area .comment-respond .form-submit input[type="submit"]:hover
 {
     background-color: <?php echo esc_html($ftc_primary_color) ?>;
 }
 .btn-danger,
+.deal-product-1 .item-image .group-button-product > div a:hover,
+.product-special .item-image .group-button-product > div a:hover,
 .btn-danger:hover{
     background-color: <?php echo esc_html($ftc_primary_color) ?> !important;
 }
@@ -409,12 +456,15 @@ a.dokan-btn-theme:active, .dokan-btn-theme:active,
 .single-portfolio .related .owl-nav > div:hover,
 .ftc-portfolio-wrapper .portfolio-inner .item .thumbnail .figcaption .zoom-img:hover,
 .ftc-portfolio-wrapper .item .figcaption ul:hover:before,
+.deal-product-1 .item-image .group-button-product > div a:hover,
+.product-special .item-image .group-button-product > div a:hover,
 .subscribe_comingsoon .feedburner-subscription input[type="text"]:focus,body .subscribe_comingsoon .subscribe-email .button.button-secondary:hover
 {
     border-color: <?php echo esc_html($ftc_primary_color) ?>;
 }
 
 .btn-danger,
+#mega_main_menu.primary li.default_dropdown > .mega_dropdown > .menu-item > .item_link:hover:before,
 .btn-danger:hover
 {
     border-color: <?php echo esc_html($ftc_primary_color) ?> !important;
@@ -434,6 +484,8 @@ a.dokan-btn-theme:active, .dokan-btn-theme:active,
 .woocommerce .product .conditions-box .onsale:before,
 .woocommerce .product .conditions-box .featured:before,
 span.page-load-status p.infinite-scroll-request:after,
+.header-layout5 #dropdown-list,
+.header-layout6 #dropdown-list,
 .woocommerce .product .conditions-box .out-of-stock:before,.woocommerce-info
 {
     border-top-color: <?php echo esc_html($ftc_primary_color) ?>;
