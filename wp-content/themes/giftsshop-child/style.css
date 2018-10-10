@@ -66,7 +66,7 @@ body.wpb-js-composer .vc_general.vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-t
   height: 65px;
 }
 
-header{
+header#masthead{
   z-index: 100;
   position: relative;
   
@@ -187,6 +187,10 @@ body .wpb_row, body .wpb_content_element, body .vc_tta-container{
 
 .vc_row{
   
+}
+
+.vc_row-no-padding{
+  padding: 0 !important;
 }
 
 .vc_row:nth-child(1){
